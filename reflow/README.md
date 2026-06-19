@@ -9,8 +9,8 @@
 [![Stars](https://img.shields.io/github/stars/extension1/reflow?style=flat-square)](https://github.com/YOUR_USERNAME/reflow/stargazers)
 [![Stardance](https://img.shields.io/badge/built%20for-Stardance%202026-fa1e4e?style=flat-square)](https://stardance.hackclub.com)
 
-<!-- 📸 drop a demo GIF/screenshot here — this single change does more for the README than anything else -->
-<!-- ![reFlow demo](docs/demo.gif) -->
+<img width="1360" height="607" alt="image" src="https://github.com/user-attachments/assets/5b911c89-8ae9-49ad-8072-e718d416151c" />
+
 
 </div>
 
