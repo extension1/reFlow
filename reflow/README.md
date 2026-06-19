@@ -63,11 +63,11 @@ Built for the Stardance Hackathon, because boring black-and-white telemetry char
 
 ## 🚀 Running It
 
-**Easiest way:** open `reFlow.html` directly in your browser. It's a single self-contained file (~1.14 MB) with React, Three.js, Tailwind, and all assets inlined — no server, no build step.
+**Easiest way:** run `node bundle.cjs` after making sure you're in the root folder where you saved everything. It'll save to a single file (reFlow.html) that you can run.
 
 **To develop locally:**
 ```bash
-cd reflow
+cd "file_location"
 npm install
 npm run dev
 ```
