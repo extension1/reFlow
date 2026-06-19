@@ -5,8 +5,8 @@
 **A real-time 3D aerodynamics wind tunnel that runs entirely in your browser — no install, no GPU farm, just a wing and some math.**
 
 [![License](https://img.shields.io/github/license/extension1/reflow?style=flat-square)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/extension1/reflow?style=flat-square)](https://github.com/YOUR_USERNAME/reflow/commits/main)
-[![Stars](https://img.shields.io/github/stars/extension1/reflow?style=flat-square)](https://github.com/YOUR_USERNAME/reflow/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/extension1/reflow?style=flat-square)](https://github.com//reflow/commits/main)
+[![Stars](https://img.shields.io/github/stars/extension1/reflow?style=flat-square)](https://github.com/extension1/reflow/stargazers)
 [![Stardance](https://img.shields.io/badge/built%20for-Stardance%202026-fa1e4e?style=flat-square)](https://stardance.hackclub.com)
 
 <img width="1360" height="607" alt="image" src="https://github.com/user-attachments/assets/5b911c89-8ae9-49ad-8072-e718d416151c" />
