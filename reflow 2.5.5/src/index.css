@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-mono: "Share Tech Mono", "Fira Code", monospace;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Custom CSS Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #09090c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f1f2e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7df9ff88;
+}
+
+/* Cyberpunk Telemetry Overlay Elements */
+.crt-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
+  background-size: 100% 3px;
+  pointer-events: none;
+  z-index: 20;
+  opacity: 0.4;
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.crt-scanline {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(125, 249, 255, 0), rgba(125, 249, 255, 0.05) 50%, rgba(125, 249, 255, 0));
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: scanline 10s linear infinite;
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* Glow effects */
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(125, 249, 255, 0.6);
+}
+.glow-amber {
+  text-shadow: 0 0 10px rgba(255, 159, 28, 0.6);
+}
+.glow-rose {
+  text-shadow: 0 0 10px rgba(255, 0, 60, 0.6);
+}
+
+.box-glow-cyan {
+  box-shadow: 0 0 15px rgba(125, 249, 255, 0.15);
+}
+.box-glow-amber {
+  box-shadow: 0 0 15px rgba(255, 159, 28, 0.15);
+}
+.box-glow-rose {
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.2);
+}
+
+/* Custom slider thumb styles for a premium look */
+input[type="range"]::-webkit-slider-thumb {
+  border: 2px solid #000;
+  box-shadow: 0 0 8px currentColor;
+}
